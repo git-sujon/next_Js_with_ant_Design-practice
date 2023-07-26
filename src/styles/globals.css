@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.ant-layout-header  {
+    background-color: "#7a021a";
+}
+
+
+.menu_items a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+
