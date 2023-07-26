@@ -1,3 +1,4 @@
+import MainLayout from "@/layout/MainLayout";
 import Head from "next/head";
 import React from "react";
 
@@ -11,10 +12,14 @@ const HomePage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        this is the home page
+      this is the homepage
       </div>
     </>
   );
 };
 
 export default HomePage;
+
+HomePage.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>;
+};
