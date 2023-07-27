@@ -49,6 +49,15 @@ const MainLayout = ({ children }) => {
           <Link href="/blogs">
             <items>Blogs</items>
           </Link>
+          <Link href="/users">
+            <items
+              style={{
+                margin: "0px 25px",
+              }}
+            >
+              Users
+            </items>
+          </Link>
           <Link href="/about">
             <items
               style={{
