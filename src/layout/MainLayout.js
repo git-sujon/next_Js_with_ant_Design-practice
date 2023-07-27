@@ -1,16 +1,6 @@
 import React, { useState } from "react";
 import { Layout, Menu, theme } from "antd";
 import Link from "next/link";
-import {
-  ProfileOutlined,
-  MobileOutlined,
-  UserOutlined,
-  FacebookFilled,
-  LinkedinFilled,
-  GoogleSquareFilled,
-  TwitterSquareFilled,
-  UnorderedListOutlined,
-} from "@ant-design/icons";
 
 const { Header, Content, Footer, Sider } = Layout;
 const MainLayout = ({ children }) => {
@@ -35,16 +25,19 @@ const MainLayout = ({ children }) => {
           backgroundColor: "#7a021a",
         }}
       >
-        <div>
-          <UnorderedListOutlined
-            onClick={() => setCollapsed(!collapsed)}
-            size={45}
-            style={{
-              color: "white",
-              marginRight: "20px",
-            }}
-          />
-        </div>
+        <Link
+          href="/"
+          style={{
+            color: "white",
+            fontSize: "40px",
+            fontWeight: "bold",
+            marginRight: "20px",
+            fontStyle: "italic",
+            textTransform: "uppercase",
+          }}
+        >
+          Blogchain
+        </Link>
         <Menu
           theme="dark"
           mode="vertical"
@@ -63,6 +56,24 @@ const MainLayout = ({ children }) => {
               }}
             >
               About Us
+            </items>
+          </Link>
+          <Link href="/signup">
+            <items
+              style={{
+                margin: "0px 25px",
+              }}
+            >
+              SignUp
+            </items>
+          </Link>
+          <Link href="/login">
+            <items
+              style={{
+                margin: "0px 25px",
+              }}
+            >
+              Login
             </items>
           </Link>
         </Menu>

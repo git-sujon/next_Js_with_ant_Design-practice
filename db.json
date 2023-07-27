@@ -1,7 +1,7 @@
 {
     "blogs": [
         {
-            "id":"1",
+            "id": "1",
             "title": "The Art of Mindfulness",
             "author": "Jane Doe",
             "date": "2023-07-26",
@@ -9,7 +9,7 @@
             "image_url": "https://www.techinnews.com/wp-content/uploads/2023/01/how_to_start_a_travel_blog_-_article_image.jpg"
         },
         {
-            "id":"2",
+            "id": "2",
             "title": "Exploring the Wonders of the Amazon Rainforest",
             "author": "John Smith",
             "date": "2023-07-25",
@@ -17,7 +17,7 @@
             "image_url": "https://www.techinnews.com/wp-content/uploads/2023/01/how_to_start_a_travel_blog_-_article_image.jpg"
         },
         {
-            "id":"3",
+            "id": "3",
             "title": "The Art of Mindfulness",
             "author": "Jane Doe",
             "date": "2023-07-26",
@@ -25,12 +25,104 @@
             "image_url": "https://www.techinnews.com/wp-content/uploads/2023/01/how_to_start_a_travel_blog_-_article_image.jpg"
         },
         {
-            "id":"4",
+            "id": "4",
             "title": "Exploring the Wonders of the Amazon Rainforest",
             "author": "John Smith",
             "date": "2023-07-25",
             "content": "The Amazon Rainforest, often referred to as the 'Lungs of the Earth,' is a biodiversity hotspot and a treasure trove of natural wonders. Join us on a virtual journey through the dense foliage, vibrant wildlife, and fascinating indigenous cultures of the Amazon. Discover the urgent need for conservation efforts to protect this irreplaceable ecosystem.",
             "image_url": "https://www.techinnews.com/wp-content/uploads/2023/01/how_to_start_a_travel_blog_-_article_image.jpg"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "age": 30,
+            "city": "New York",
+            "country": "USA",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "name": "Alice Johnson",
+            "email": "alice.johnson@example.com",
+            "age": 25,
+            "city": "London",
+            "country": "UK",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "name": "Bob Smith",
+            "email": "bob.smith@example.com",
+            "age": 28,
+            "city": "Sydney",
+            "country": "Australia",
+            "isActive": false
+        },
+        {
+            "id": 4,
+            "name": "Emily Brown",
+            "email": "emily.brown@example.com",
+            "age": 22,
+            "city": "Toronto",
+            "country": "Canada",
+            "isActive": true
+        },
+        {
+            "id": 5,
+            "name": "Michael Lee",
+            "email": "michael.lee@example.com",
+            "age": 35,
+            "city": "Tokyo",
+            "country": "Japan",
+            "isActive": true
+        },
+        {
+            "id": 6,
+            "name": "Sophia Chen",
+            "email": "sophia.chen@example.com",
+            "age": 29,
+            "city": "Shanghai",
+            "country": "China",
+            "isActive": false
+        },
+        {
+            "id": 7,
+            "name": "David Wilson",
+            "email": "david.wilson@example.com",
+            "age": 31,
+            "city": "Berlin",
+            "country": "Germany",
+            "isActive": true
+        },
+        {
+            "id": 8,
+            "name": "Lily Garcia",
+            "email": "lily.garcia@example.com",
+            "age": 27,
+            "city": "Madrid",
+            "country": "Spain",
+            "isActive": true
+        },
+        {
+            "id": 9,
+            "name": "Oliver Martinez",
+            "email": "oliver.martinez@example.com",
+            "age": 33,
+            "city": "Mexico City",
+            "country": "Mexico",
+            "isActive": false
+        },
+        {
+            "id": 10,
+            "name": "Ava Kim",
+            "email": "ava.kim@example.com",
+            "age": 26,
+            "city": "Seoul",
+            "country": "South Korea",
+            "isActive": true
         }
     ]
 }

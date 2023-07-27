@@ -1,13 +1,17 @@
 import Blogs from "@/components/Blogs";
 import MainLayout from "@/layout/MainLayout";
-import { Card, Col, Row } from "antd";
 import Head from "next/head";
 import React from "react";
 import { Typography } from "antd";
 
+
 const { Title, Paragraph } = Typography;
 
-const HomePage = ({ blogs }) => {
+
+const HomePage = ({blogs}) => {
+
+
+
   return (
     <>
       <Head>
